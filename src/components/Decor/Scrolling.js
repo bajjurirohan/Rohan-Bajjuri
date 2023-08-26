@@ -6,7 +6,7 @@ const ScrollingText = () => {
       <div className="header bg-gray-900 text-white p-4">
         <h1 
         className="scrolling-text overflow-hidden 
-        whitespace-nowrap font-bold font-heading uppercase text-3xl animate-scroll text-center">
+        whitespace-nowrap font-heading uppercase text-3xl animate-scroll text-center">
             Open For Hiring
         </h1>
       </div>

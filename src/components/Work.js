@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 const Work = () => {
-  return <div className="section mx-16 flex justify-between " id="skills">
+  return <div className="section lg:mx-16 flex justify-between flex-col lg:flex-row" id="skills">
     <One className=''/>
     <motion.img
      variants={fadeIn('up',0.3)} 

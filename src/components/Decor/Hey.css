@@ -8,6 +8,6 @@ svg {
       stroke-dashoffset: 3000;
     }
     100% {
-      stroke-dashoffset: 1500;
+      stroke-dashoffset: 1000;
     }
   }

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 const About = () => {
   return (
-    <section className="section flex flex-col lg:flex-row" id="about">
+    <section className="section flex flex-col gap-y-10 lg:flex-row" id="about">
       <motion.div
       variants={fadeIn('left',0.3)} 
       initial='hidden'
@@ -22,11 +22,11 @@ const About = () => {
       initial='hidden'
       whileInView={'show'}
       viewport={{once:false,amount:0.6}}
-      className='container w-[650px] mx-auto' >
+      className='container w-auto lg:w-[550px] mx-auto' >
         <h2 className=" h2 text-gradient" >
           ABOUT ME
         </h2>
-        <h3 className="h3">
+        <h3 className="h3 ">
         I am a full stack developer with
         <span className=" font-tertiary text-gradient"> { InView ?
           <CountUp start={0} end={3} duration={5}/> : null }

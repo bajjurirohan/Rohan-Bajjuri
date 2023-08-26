@@ -54,7 +54,7 @@ const Banner = () => {
                 "Court-Side Coder",
                 2000,
               ]}
-              speed={100}
+              speed={50}
               className="text-accent"
               wrapper="span"
               repeat={Infinity}
@@ -72,7 +72,7 @@ const Banner = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
         >
-          <Cup className="h-[250px] w-[250px] lg:h-[450px] lg:w-[450px] mx-auto bg-white rounded-full flex items-center justify-center" />
+          <Cup className="h-[250px] w-[250px] lg:h-[350px] lg:w-[350px] mx-auto bg-white rounded-full flex items-center justify-center" />
         </motion.div>
       </div>
       <div className="flex flex-col lg:flex-row lg:gap-x-[150px] gap-10 mx-auto">
