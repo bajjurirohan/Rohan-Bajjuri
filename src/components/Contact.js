@@ -104,7 +104,7 @@ const Contact = () => {
            name="message"
           placeholder='Your message' required/>
           <button className="btn btn-lg" onClick={sendEmail} disabled={isSubmitting&&nameError===''&&emailError===''}>
-            {isSubmitting ? 'SuBmiTTing...' : 'SeNd MeSSage'}
+            {isSubmitting ? 'Accomplished' : 'SeNd MeSSage'}
             </button>
             {nameError && <div className=" text-white">{nameError==='start'&&!isError? null : nameError}</div>}
             {emailError && <div className=" text-white">{emailError==='start'&&!isError? null : emailError}</div>}
