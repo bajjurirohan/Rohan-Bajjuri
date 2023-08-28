@@ -18,7 +18,7 @@ const App = () => {
     // Wait for 1 second after the component mounts
     const timer = setTimeout(() => {
     setTime(true);
-    }, 4000);
+    }, 3500);
     return () => clearTimeout(timer);
   },[]);
 
