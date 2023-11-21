@@ -28,10 +28,10 @@ const About = () => {
         </h2>
         <h3 className="h3 ">
         I am a full stack developer with
-        <span className=" font-tertiary text-gradient"> { InView ?
+        {/* <span className=" font-tertiary text-gradient"> { InView ?
           <CountUp start={0} end={3} duration={5}/> : null }
             </span> 
-          years of experience in the software industry. I have a strong understanding of both the 
+        years of*/} experience in the software industry. I have a strong understanding of both the
           <span className=" font-tertiary text-gradient"> Front end </span> and <span className=" font-tertiary text-gradient"> Back-end </span>back-end aspects of web development.
           I am proficient in a variety of programming languages and technologies
         </h3><p className="h3">
