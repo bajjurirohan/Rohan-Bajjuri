@@ -19,11 +19,11 @@ const One = () => {
       <ul className="skill-list">
         <li>JavaScript</li>
         <li>React</li>
+        <li>Angular</li>
         <li>CSS</li>
         <li>HTML</li>
         <li>TailWind CSS</li>
         <li>Axios</li>
-        <li>Finge</li>
         <li>SSR with Next.js</li>
         <li>TypeScript</li>
       </ul>

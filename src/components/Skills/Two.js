@@ -18,13 +18,14 @@ const Two = () => {
       <h2 className="skill-title text-center">Back End</h2>
       <ul className="skill-list">
         <li>NodeJS</li>
-        <li>Java</li>
         <li>Express</li>
-        <li>Spring MVC</li>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>Java</li>
         <li>MySQL</li>
         <li>MongoDB </li>
         <li>JDBC</li>
-        <li>Hibernate</li>
+        <li>Python</li>
       </ul>
     </div>
     </motion.div>
