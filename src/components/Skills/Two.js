@@ -19,8 +19,8 @@ const Two = () => {
       <ul className="skill-list">
         <li>NodeJS</li>
         <li>Express</li>
-        <li>PHP</li>
-        <li>Laravel</li>
+        <li>Golang</li>
+        <li>Gin</li>
         <li>Java</li>
         <li>MySQL</li>
         <li>MongoDB </li>
