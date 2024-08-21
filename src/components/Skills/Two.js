@@ -19,13 +19,13 @@ const Two = () => {
       <ul className="skill-list">
         <li>NodeJS</li>
         <li>Express</li>
-        <li>Golang</li>
-        <li>Gin</li>
         <li>Java</li>
         <li>MySQL</li>
         <li>MongoDB </li>
         <li>JDBC</li>
         <li>Python</li>
+        <li>Golang</li>
+        <li>Gin</li>
       </ul>
     </div>
     </motion.div>
